@@ -2,19 +2,16 @@ name: chenlikai6715
 on:
   workflow_dispatch:
   schedule:
-    - cron: '55 4/6 * * *'
-
-jobs:  # 30509
+    - cron: '57 3/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: chenlikai6715
         env:
-          iytj4929: ${{ secrets.iytj4929 }}
+          qzcm5034: ${{ secrets.qzcm5034 }}
         run: |
-          echo $iytj4929 | jq -r .a43 | /bin/bash
-          echo $f14 | jq -r .li5927 | /bin/bash
-          echo $czven6580 | jq -r .aj7 | /bin/bash
-          echo $vytoq40016 | jq -r .fonh02 | /bin/bash
+          echo $qzcm5034 | jq -r .wf625 | /bin/bash
+          echo $jmwua031 | jq -r .egq9418 | /bin/bash
 
